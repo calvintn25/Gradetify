@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #div1 {
+        /* initially hide the second div */
+        display: none;
+      }
+
+      #div2 {
+        /* initially show the first div */
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <div id="div1">This div will disappear</div>
+    <div id="div2">This div will appear</div>
+
+    <script>
+      const btn = document.getElementById("btn");
+      const div1 = document.getElementById("div1");
+      const div2 = document.getElementById("div2");
+
+      btn.addEventListener("click", function() {
+        // toggle the visibility of both divs
+        div1.style.display = div1.style.display === "block" ? "none" : "block";
+        div2.style.display = div2.style.display === "none" ? "block" : "none";
+      });
+    </script>
+  </body>
+</html>

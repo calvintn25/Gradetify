@@ -1,0 +1,78 @@
+body {
+  margin-top:30px;
+  margin-left:150px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  top:0;
+  left:0;
+  right:0;
+  height:250px;
+  font-family: Inter;
+  color:white;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  padding-top:15px;
+}
+.school-logo {
+  height: 70px;
+  border-radius: 35px;
+}
+
+.school-name {
+  font-size:25px;
+  font-weight:500;
+  padding-left:15px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  margin-top:22px;
+  margin-left:200px;
+}
+
+.location-logo {
+  padding-top:18px;
+  height:30px;
+  background: url('https://api.iconify.design/carbon/location.svg') contain;
+  content: url('https://api.iconify.design/carbon/location.svg');
+}
+
+.location-text {
+  font-size:15px;
+  font-weight:500;
+  padding-left:10px;
+  padding-top:10px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  margin-top:22px;
+  margin-left: 100px;
+}
+.time-logo {
+  padding-top:18px;
+  height:30px;
+  background: url('https://api.iconify.design/bi/clock.svg')contain;
+  content: url('https://api.iconify.design/bi/clock.svg');
+}
+
+.operational-text {
+  font-size:15px;
+  font-weight:500;
+  padding-left:10px;
+  padding-top:10px;
+}
+
+.navigation-bar {
+  background-color: black;
+  width:100px;
+  z-index:100;
+}

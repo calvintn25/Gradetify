@@ -1,0 +1,121 @@
+.login-page {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hello {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 10px;
+    margin-top:50px;
+    margin-bottom: 60px;
+}
+
+.logo-gradetify {
+    margin-bottom:10px;
+}
+.started-button {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    height:150px;
+    position: relative;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    top:0;
+}
+.started-text {
+    display:block;
+    font-size: 32px;
+    transition: opacity 0.5s ease-out;
+}
+.inputbox,
+.inputbox2 {
+    display:none;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    padding:3px;
+    width:350px;
+    margin-bottom:5px;
+}
+.inputbox input, 
+.inputbox2 input {
+    border:none ;
+    background-color: transparent;
+    font-family: inter, arial;
+    width:1fr;
+}
+
+.input-bar{
+    padding:10px;   
+    font-size:20px
+}
+ 
+.login-icon {
+    padding-right:5px
+}
+
+.profile-image {
+    height:30px;
+    width: 30px;
+    background: url('https://api.iconify.design/gg/profile.svg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/gg/profile.svg');
+}
+
+
+.login-icon-picture {
+    height:30px;
+    width:30px;
+    display: flex;
+    position: relative;
+    padding-right: 4px;
+
+}
+.username-input {
+    display:inline-block;
+    justify-content: center;
+}
+
+.password-input{
+    justify-content: center;
+        
+}
+.login-button {
+    border: 4px solid white;
+    border-radius:100px;
+    background-color: transparent;
+    cursor:pointer;
+    color:white;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left: 160px;
+    padding-right: 160px;
+    font-size: 45px;
+    transition: background-color 0.15s;
+    
+}
+.login-button:hover {
+    cursor:pointer;
+    background-color: white;
+    color:rgba(233, 147, 124, 1);
+    align-items: center;
+}
+
+    .shrinked {
+        margin-top: 25px;
+        padding: 9px 45px;
+        font-size: 30px;
+        transition: ease-in 300ms;
+        
+    }
+
+/* .login-button:focus {
+    margin-top:50px;
+    padding:9px 45px;
+    font-size:30px;
+} */
+
+
