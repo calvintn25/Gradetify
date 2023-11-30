@@ -9,7 +9,8 @@ body {
   top:0;
   left:0;
   right:0;
-  height:250px;
+  height:150px;
+  margin-left:200px;
   font-family: Inter;
   color:white;
 }
@@ -72,7 +73,67 @@ body {
 }
 
 .navigation-bar {
-  background-color: black;
-  width:100px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  background-color: white;
+  color:rgb(215, 65, 119);
+  width:950px;
+  height:64px;
+  margin-left:190px;
+  border-radius:50px;
   z-index:100;
+}
+
+.navbar-link {
+  width:130px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.home-logo {
+  height:30px;
+  padding-top:15px;
+  background: url('https://api.iconify.design/ic/baseline-home.svg') contain;
+  content: url('https://api.iconify.design/ic/baseline-home.svg');
+}
+
+.navbar-text {
+  font-weight:600;
+  padding-top:7px;
+  font-size:15px;
+}
+
+.schedule-logo {
+  height:30px;
+  padding-top:15px;
+  background: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg')contain;
+  content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg');
+}
+
+.score-logo {
+  height:30px;
+  padding-top:15px;
+}
+
+.exam-logo {
+  height:30px;
+  padding-top:15px;
+  background: url('https://api.iconify.design/healthicons/i-exam-qualification-outline.svg')contain;
+  content: url('https://api.iconify.design/healthicons/i-exam-qualification-outline.svg');
+}
+
+.profile-logo {
+  height:30px;
+  padding-top:15px;
+  background: url('https://api.iconify.design/gg/profile.svg') contain;
+  content: url('https://api.iconify.design/gg/profile.svg');
+}
+
+.hello-text {
+  margin-left:200px;
+  font-size:100px;
 }
