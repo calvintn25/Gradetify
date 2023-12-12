@@ -13,10 +13,10 @@
 }
 
 .logo-gradetify {
+    height:250px;
     margin-bottom:10px;
 }
 .started-button {
-    margin-top:30px;
     display: flex;
     flex-direction: column;
     height:150px;
@@ -36,7 +36,7 @@
     display:none;
     justify-content: center;
     align-items: center;
-    border:1px solid white;
+    border:2px solid black;
     padding:3px;
     width:350px;
     margin-bottom:5px;
@@ -47,11 +47,16 @@
     background-color: transparent;
     font-family: inter, arial;
     width:1fr;
+    color:white;
 }
 
 .input-bar{
     padding:10px;   
-    font-size:20px
+    font-size:20px;
+}
+
+.input-bar::placeholder {
+    color:white;
 }
  
 .login-icon {
@@ -61,10 +66,16 @@
 .profile-image {
     height:30px;
     width: 30px;
-    background: url('https://api.iconify.design/gg/profile.svg') no-repeat center center / contain;
-    content: url('https://api.iconify.design/gg/profile.svg');
+    background: url('https://api.iconify.design/gg/profile.svg?color=white') no-repeat center center / contain;
+    content: url('https://api.iconify.design/gg/profile.svg?color=white');
 }
 
+.padlock-image {
+    height:30px;
+    width:30px;
+    background: url('https://api.iconify.design/streamline/padlock-square-1-solid.svg?color=white') no-repeat center center / contain;
+    content: url('https://api.iconify.design/streamline/padlock-square-1-solid.svg?color=white');
+}
 
 .login-icon-picture {
     height:30px;
